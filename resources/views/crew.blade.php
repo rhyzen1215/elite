@@ -11,6 +11,7 @@
     table, tr, th, td {
       padding:10px;
     }
+    
   </style>
   <input type="hidden" id="accessleveldata" value="{{$accessleveldata}}" />
   <section>
