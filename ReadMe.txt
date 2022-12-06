@@ -1,0 +1,48 @@
+For Exam 1 (API):
+
+API URL: http://localhost:8000/paychat/api/<endpoint>
+
+Endpoints (Same with API Documentation):
+  1. applicant_id - get applicant_id by Email.
+  2. save - save/add new data to API.
+  3. get - get added date by application_id.
+  4. update - update data.
+  5. get_security_questions - get list of security_question.
+  6. security_question - display security_question queries based on action (required).
+
+Note: In the sample; all are with data to have get successful results. Please refer to app/Http/Controllers/BladeController
+      -> requestProcess function for more details.
+
+
+For Exam 3 (Mid-Web Development):
+
+WEB URLs:
+Login Form: http://localhost:8000/paychat/login
+Exam Form: http://localhost:8000/paychat/exam
+
+Deployment:
+
+Pre-requisite - Composer
+OS Platform - Linux/Mac OS
+Framework used - Laravel Framework 8.83.26 (Version 8 above is acceptable)
+Database: MariaDB/Mysql
+Others: Bootstrap/Jquery/Css
+
+
+
+Note: Unzip the attachedd zip file. Copy the exam folder to your host directory, create a database or restore the database based on the included one (paychat.sql).
+      Navigate to exam folder and run "php artisan serve" without the double quotes. Then on a browser enter the above Web Urls.
+
+      Additional setup:
+      On the exam folder, open .env file. Change DB_DATABASE to the database you created (paychat as default).
+      Change DB_USERNAME, and DB_PASSWORD based on your computer/host username and password.
+
+If Download is unsuccessful (due to google drive file size limit on upload). Below are alternative download/Installation:
+
+1. FTP: (Filezilla)
+    Donwload Filezilla
+    Credentials (FTP by Account)
+      FTP Username: paychat@codencraft.com
+      FTP Password: paychatexam
+      FTP server: ftp.codencraft.com
+      FTP & explicit FTPS port:  21
